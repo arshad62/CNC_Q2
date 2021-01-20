@@ -1,0 +1,156 @@
+@media only screen and (max-width:1120px)
+{
+.top
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ConNum{
+    display: flex;
+    flex-direction: column;
+}
+.ConNum .btn{
+    margin-top: 3px;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+ .navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+
+ }
+ .navbar ul li{
+  margin: 8px 0px;
+ }
+ 
+ .experts{
+     background-size: 100% 100%;
+ }
+ .ex{
+     width: 100vw;
+ }
+ .ex h1{
+     font-size: 1.4rem;
+    position: relative;
+    top: 25px;
+    }
+ 
+ .advantages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .advantage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+.box-list{
+    width: 100vw;
+}
+.about{
+background-size: 100% 100%;}
+.about-us{
+width: auto;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.process-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.process-text{
+    padding: 4px 1px;
+}
+.people{
+    width: 100vw;
+}
+.people-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.people hr{
+    opacity: 0;
+}
+.people-review{
+    width: 100vw;
+    display: flex;
+    height: fit-content;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+.card{
+    padding: 15px 0px;
+}
+.project{
+    height: fit-content;
+}
+.project form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.project form input{
+    border-radius: 10px;
+    margin: 6px 0px;
+    width: 80vw;
+}
+
+.iframe{
+    border: 0;
+    width: 40vw;
+}
+.footer{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+.footer-logo{
+    width: auto;
+    height: fit-content;
+}
+.footer-service{
+    width: 100vw;
+    display: flex;
+    padding: 4px 0px;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.footer-links{
+    width: 100vw;
+    display: flex;
+    padding: 4px 0px;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.footer-contact{
+    width: fit-content;
+}
+}
